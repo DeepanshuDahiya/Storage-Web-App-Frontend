@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import { useState } from "react";
 import DirectoryView from "./DirectoryView";
-import Auth from "./auth";
+import Auth from "./Auth";
 
 function App() {
   const [user, setUser] = useState(null);
