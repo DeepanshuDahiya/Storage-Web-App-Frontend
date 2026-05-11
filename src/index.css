@@ -1,0 +1,127 @@
+body {
+  background-color: #18191c;
+  color: #e4e6eb;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  margin: 0;
+}
+
+/* Layout */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+/* Header */
+h1 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Toolbar */
+.toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+/* Inputs */
+input {
+  padding: 10px 12px;
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #2f3035;
+  background-color: #232428;
+  color: #fff;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2f3035;
+  color: #e4e6eb;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  background-color: #3b3c42;
+}
+
+/* Section separation */
+.section {
+  margin-top: 28px;
+}
+
+.section-title {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 8px;
+}
+
+/* List */
+.file-list {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #2f3035;
+}
+
+/* Item */
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  background-color: #232428;
+  border-bottom: 1px solid #2f3035;
+  transition: background 0.15s ease;
+}
+
+.file-item:last-child {
+  border-bottom: none;
+}
+
+.file-item:hover {
+  background-color: #2c2d32;
+}
+
+/* Left side */
+.file-item > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-name {
+  font-size: 14px;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.actions button {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+/* Progress */
+span {
+  font-size: 12px;
+  color: #aaa;
+}
